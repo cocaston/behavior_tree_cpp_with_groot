@@ -1,0 +1,53 @@
+# 构建目录
+build/
+cmake-build-*/
+
+# 编译产物
+*.o
+*.obj
+*.so
+*.a
+*.dll
+*.dylib
+*.exe
+*.out
+
+# CMake生成的文件
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# IDE配置
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# 依赖管理
+/vcpkg_installed/
+/conan/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 调试文件
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# 日志文件
+*.log
+
+# 临时文件
+tmp/
+temp/
+
+# 用户特定文件
+.env
+.env.local

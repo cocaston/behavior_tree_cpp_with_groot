@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<root main_tree_to_execute="BehaviorTree">
+    <!-- ////////// -->
+    <BehaviorTree ID="BehaviorTree">
+        <Sequence>
+            <Action ID="Action1" name="action_one"/>
+            <Condition ID="shouldStartAction"/>
+            <Action ID="Action2" name="action_sec"/>
+        </Sequence>
+    </BehaviorTree>
+    <!-- ////////// -->
+    <TreeNodesModel>
+        <Action ID="Action1"/>
+        <Action ID="Action2"/>
+        <Condition ID="shouldStartAction"/>
+    </TreeNodesModel>
+    <!-- ////////// -->
+</root>
