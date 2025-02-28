@@ -4,6 +4,7 @@
     <BehaviorTree ID="BehaviorTree">
         <Sequence>
             <Action ID="Action1" name="action_one"/>
+            <Action ID="Action3"/>
             <Condition ID="shouldStartAction"/>
             <Action ID="Action2" name="action_sec"/>
         </Sequence>
@@ -12,6 +13,7 @@
     <TreeNodesModel>
         <Action ID="Action1"/>
         <Action ID="Action2"/>
+        <Action ID="Action3"/>
         <Condition ID="shouldStartAction"/>
     </TreeNodesModel>
     <!-- ////////// -->

@@ -49,6 +49,28 @@ public:
 };
 
 /**
+ * @brief Action3节点类
+ * 
+ * 实现行为树中的Action3动作
+ */
+class Action3Node : public BT::SyncActionNode
+{
+public:
+    /**
+     * @brief 构造函数
+     * @param name 节点名称
+     */
+    Action3Node(const std::string& name);
+
+    /**
+     * @brief 执行节点动作
+     * @return 节点执行状态
+     */
+    BT::NodeStatus tick() override;
+};
+
+
+/**
  * @brief 条件节点类
  * 
  * 实现行为树中的shouldStartAction条件
